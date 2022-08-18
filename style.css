@@ -1,0 +1,113 @@
+header {
+	background: #F8F8FF
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #00FF7F;
+}
+
+.agrinho {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+.agrinho li {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	vertical-align: top;
+	box-sizing: border-box;
+	background: #F8F8FF;
+	border: 5px #000000 solid;
+	border-radius: 10px
+}
+
+.agrinho li:hover {
+	border-color: #00FF7F ;
+}
+
+.agrinho li:active {
+	border-color: #00FF7F;
+}
+
+.agrinho li:hover h2{
+	font-size: 45px;
+}
+
+.agrinho h2 {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+	color: #000000;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.JPG");
+	padding: 30px 0;
+
+}
+
+.Copyright {
+	font-size: 15px;
+	margin: 20px 0 0;
+	
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 12px 27px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+ 
+ .enviar {
+ 	width: 40%;
+ 	padding: 18px 0;
+ 	background: orange;
+ 	color: white;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.87s background;
+    cursor: pointer;
+ }
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
